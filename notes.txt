@@ -1,0 +1,9 @@
+insert into COURSE (id , name , author)
+
+values(2 , 'backend', 'hk');
+
+commit;
+
+delete from COURSE where id=2
+
+SELECT * FROM COURSE
